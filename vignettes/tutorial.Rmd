@@ -1,0 +1,20 @@
+---
+title: "STAT302package1 Tutorial"
+author: "Chunl Chiang"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{STAT302package1 Tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(STAT302package1)
+```

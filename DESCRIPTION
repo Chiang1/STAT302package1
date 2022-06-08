@@ -1,0 +1,29 @@
+Package: STAT302package1
+Title: What the Package Does (One Line, Title Case)
+Version: 0.1
+Authors@R: 
+    person(given = "Chunl Chiang")
+Description: This is Project3 for STAT302.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    class,
+    magrittr,
+    randomForest,
+    tibble,
+    stats,
+    tidyr,
+    readr,
+    dplyr,
+    ggplot2
+Config/testthat/edition: 3
